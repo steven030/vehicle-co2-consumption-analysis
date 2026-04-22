@@ -1,4 +1,4 @@
-# 🚗 Vehicle Fuel Consumption & CO₂ Analysis
+# 🚗 vehicle-co2-consumption-analysis
 
 ## 📌 Overview
 This project performs an Exploratory Data Analysis (EDA) on vehicle fuel consumption and its relationship with CO₂ emissions. The goal is to standardize units, clean the data, and generate meaningful insights about fuel efficiency and environmental impact.
@@ -8,9 +8,9 @@ This project performs an Exploratory Data Analysis (EDA) on vehicle fuel consump
 ## 📊 Dataset Description
 The dataset contains detailed information about vehicles, including engine specifications, fuel type, transmission, fuel consumption, and CO₂ emissions.
 
-- Fuel consumption originally measured in **mpg (miles per gallon)**
-- CO₂ emissions measured in **g/mile (grams per mile)**
-- Unit conversion applied for consistency between variables
+- Fuel consumption originally measured in **mpg (miles per gallon)**  
+- CO₂ emissions measured in **g/mile (grams per mile)**  
+- A unit conversion was applied to ensure consistency between variables  
 
 ---
 
@@ -19,15 +19,17 @@ Key preprocessing steps include:
 
 - Handling missing values  
 - Data type optimization (`category`, `float`, `int`)  
-- Creation of new variables:
-  - **`consumo_litros_milla`** → conversion from mpg to L/mile  
-  - **`galones_por_milla`** → inverse of mpg  
-- Feature grouping:
-  - Transmission type (Manual / Automatic)  
-  - Drivetrain categories  
-  - Fuel type classification  
-  - Engine type grouping  
-  - Consumption and CO₂ level categorization  
+
+### Created variables:
+- `consumo_litros_milla` → conversion from mpg to L/mile  
+- `galones_por_milla` → inverse of mpg  
+
+### Feature grouping:
+- Transmission type (Manual / Automatic)  
+- Drivetrain categories  
+- Fuel type classification  
+- Engine type grouping  
+- Consumption and CO₂ level categorization  
 
 ---
 
@@ -100,4 +102,5 @@ The analysis focuses on:
 
 ---
 
-## 📁 Project Structure
+
+
